@@ -13,6 +13,10 @@
 		BC4249202277D5FD00EEBACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC42491E2277D5FD00EEBACD /* LaunchScreen.storyboard */; };
 		BC42492B2277D5FD00EEBACD /* FieldSurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC42492A2277D5FD00EEBACD /* FieldSurveyTests.swift */; };
 		BC4249362277D5FD00EEBACD /* FieldSurveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4249352277D5FD00EEBACD /* FieldSurveyUITests.swift */; };
+		BC4249442277DC1500EEBACD /* AnimalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4249432277DC1500EEBACD /* AnimalListViewController.swift */; };
+		BC4249462277DC5100EEBACD /* AnimalListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4249452277DC5100EEBACD /* AnimalListDetailViewController.swift */; };
+		BC4249482277E8B000EEBACD /* AnimalListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4249472277E8B000EEBACD /* AnimalListTableViewCell.swift */; };
+		BC42494A2278A50800EEBACD /* Model in Resources */ = {isa = PBXBuildFile; fileRef = BC4249492278A50800EEBACD /* Model */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		BC4249312277D5FD00EEBACD /* FieldSurveyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FieldSurveyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4249352277D5FD00EEBACD /* FieldSurveyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyUITests.swift; sourceTree = "<group>"; };
 		BC4249372277D5FD00EEBACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4249432277DC1500EEBACD /* AnimalListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListViewController.swift; sourceTree = "<group>"; };
+		BC4249452277DC5100EEBACD /* AnimalListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListDetailViewController.swift; sourceTree = "<group>"; };
+		BC4249472277E8B000EEBACD /* AnimalListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListTableViewCell.swift; sourceTree = "<group>"; };
+		BC4249492278A50800EEBACD /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Model; path = "../../../Codable-and-JSON/Codable and JSON/Model"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +103,15 @@
 		BC4249142277D5FC00EEBACD /* FieldSurvey */ = {
 			isa = PBXGroup;
 			children = (
+				BC4249492278A50800EEBACD /* Model */,
 				BC4249152277D5FC00EEBACD /* AppDelegate.swift */,
 				BC4249192277D5FC00EEBACD /* Main.storyboard */,
 				BC42491C2277D5FD00EEBACD /* Assets.xcassets */,
 				BC42491E2277D5FD00EEBACD /* LaunchScreen.storyboard */,
 				BC4249212277D5FD00EEBACD /* Info.plist */,
+				BC4249432277DC1500EEBACD /* AnimalListViewController.swift */,
+				BC4249452277DC5100EEBACD /* AnimalListDetailViewController.swift */,
+				BC4249472277E8B000EEBACD /* AnimalListTableViewCell.swift */,
 			);
 			path = FieldSurvey;
 			sourceTree = "<group>";
@@ -228,6 +240,7 @@
 			files = (
 				BC4249202277D5FD00EEBACD /* LaunchScreen.storyboard in Resources */,
 				BC42491D2277D5FD00EEBACD /* Assets.xcassets in Resources */,
+				BC42494A2278A50800EEBACD /* Model in Resources */,
 				BC42491B2277D5FC00EEBACD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC4249442277DC1500EEBACD /* AnimalListViewController.swift in Sources */,
+				BC4249482277E8B000EEBACD /* AnimalListTableViewCell.swift in Sources */,
+				BC4249462277DC5100EEBACD /* AnimalListDetailViewController.swift in Sources */,
 				BC4249162277D5FC00EEBACD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
